@@ -9,5 +9,22 @@
 
 body {
   width: 100%;
-  background: #fff;
+  background: #f4f6f8;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+::selection {
+  background: #7f71ff;
+  color: #fff;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
