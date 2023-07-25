@@ -26,12 +26,14 @@ export default function Header() {
 
   return (
     <header>
-      <Link to='/' className='logo'>Home Icon</Link>
-      <Navigation
-        categories={categories}
-        loading={loading}
-        error={error}
-      />
+      <nav>
+        <Link to='/' className='logo'>Home Icon</Link>
+        <Navigation
+          categories={categories}
+          loading={loading}
+          error={error}
+        />
+      </nav>
     </header>
   )
 }
